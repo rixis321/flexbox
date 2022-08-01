@@ -118,23 +118,26 @@ footer ul
     display: flex;
     flex-flow: row wrap;
     list-style-type: none;
-    margin: 0 0 0 11rem;
+    margin: 0 0 0 7rem;
     padding: 0;
+    max-width: 1200px;
 }
 footer h3
 {
     margin-top: 0;
-    margin-left: 10rem;
+    margin-left: 7rem;
 }
 
 footer li {
     margin-right: 1rem;
+
 }
 
 footer address {
     font-style: normal;
     margin-top: 2rem;
     font-weight: bold;
+    margin-left: 7rem;
 }
 
 /* make the a have a big clickable area with display: block - the link occupies its containing element, the figcaption */
@@ -222,10 +225,21 @@ figcaption a {
     section h2 {
         margin-left: 100px;
     }
-    section li,.social {
+    section li {
         flex-basis: 32.5%;
     }
     address {
-        flex-basis: 55.5%;
+        flex-basis: 35.5%;
+    }
+    footer ul
+    {
+        margin: 0 0 0 5rem;
+    }
+    footer h3
+    {
+        margin-left: 4rem;
+    }
+    .social {
+        flex-basis: 40.5%;
     }
 }
